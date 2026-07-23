@@ -1,0 +1,9 @@
+[submodule "mcp/mal-mcp"]
+	path = mcp/mal-mcp
+	url = git@github.com:brunolm/mal-mcp.git
+[submodule "mcp/patchright-mcp"]
+	path = mcp/patchright-mcp
+	url = git@github.com:brunolm/patchright-mcp.git
+[submodule "mcp/toggl-mcp"]
+	path = mcp/toggl-mcp
+	url = git@github.com:brunolm/toggl-mcp.git
