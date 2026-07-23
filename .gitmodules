@@ -7,3 +7,6 @@
 [submodule "mcp/toggl-mcp"]
 	path = mcp/toggl-mcp
 	url = git@github.com:brunolm/toggl-mcp.git
+[submodule "mcp/stealth-fetch-mcp"]
+	path = mcp/stealth-fetch-mcp
+	url = git@github.com:brunolm/stealth-fetch-mcp.git
