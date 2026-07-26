@@ -13,3 +13,6 @@
 [submodule "mcp/screenshot-mcp"]
 	path = mcp/screenshot-mcp
 	url = git@github.com:brunolm/screenshot-mcp.git
+[submodule "mcp/input-mcp"]
+	path = mcp/input-mcp
+	url = git@github.com:brunolm/input-mcp.git

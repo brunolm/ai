@@ -6,6 +6,7 @@ Index of AI-related projects, tracked as git submodules.
 
 | MCP | Path | Repo |
 |---|---|---|
+| input | `mcp/input-mcp` | [brunolm/input-mcp](https://github.com/brunolm/input-mcp) |
 | mal-mcp | `mcp/mal-mcp` | [brunolm/mal-mcp](https://github.com/brunolm/mal-mcp) |
 | patchright | `mcp/patchright-mcp` | [brunolm/patchright-mcp](https://github.com/brunolm/patchright-mcp) |
 | screenshot | `mcp/screenshot-mcp` | [brunolm/screenshot-mcp](https://github.com/brunolm/screenshot-mcp) |
