@@ -10,3 +10,6 @@
 [submodule "mcp/stealth-fetch-mcp"]
 	path = mcp/stealth-fetch-mcp
 	url = git@github.com:brunolm/stealth-fetch-mcp.git
+[submodule "mcp/screenshot-mcp"]
+	path = mcp/screenshot-mcp
+	url = git@github.com:brunolm/screenshot-mcp.git

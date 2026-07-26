@@ -8,6 +8,7 @@ Index of AI-related projects, tracked as git submodules.
 |---|---|---|
 | mal-mcp | `mcp/mal-mcp` | [brunolm/mal-mcp](https://github.com/brunolm/mal-mcp) |
 | patchright | `mcp/patchright-mcp` | [brunolm/patchright-mcp](https://github.com/brunolm/patchright-mcp) |
+| screenshot | `mcp/screenshot-mcp` | [brunolm/screenshot-mcp](https://github.com/brunolm/screenshot-mcp) |
 | stealth-fetch | `mcp/stealth-fetch-mcp` | [brunolm/stealth-fetch-mcp](https://github.com/brunolm/stealth-fetch-mcp) |
 | toggl | `mcp/toggl-mcp` | [brunolm/toggl-mcp](https://github.com/brunolm/toggl-mcp) |
 
