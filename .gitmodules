@@ -16,3 +16,6 @@
 [submodule "mcp/input-mcp"]
 	path = mcp/input-mcp
 	url = git@github.com:brunolm/input-mcp.git
+[submodule "mcp/steam-mcp"]
+	path = mcp/steam-mcp
+	url = git@github.com:brunolm/steam-mcp.git
