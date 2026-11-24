@@ -37,11 +37,12 @@ export const register: Register = on => {
 }
 
 async function ensureHelper($: EngineInterface): Promise<string | undefined> {
-  const dir = `${$.plugin.root}/helper`
-  const exe = `${dir}/clip.exe`
+  // csc.exe misresolves paths that mix '/' and '\', so every path it sees uses '\'.
+  const dir = `${$.plugin.root}\\helper`.replaceAll('/', '\\')
+  const exe = `${dir}\\clip.exe`
   if (await $.fs.exists(exe)) return exe
 
-  const argv = [CSC, '/nologo', '/optimize', '/target:exe', `/out:${exe}`, '/r:System.Windows.Forms.dll', '/r:System.Drawing.dll', `${dir}/clip.cs`]
+  const argv = [CSC, '/nologo', '/optimize', '/target:exe', `/out:${exe}`, '/r:System.Windows.Forms.dll', '/r:System.Drawing.dll', `${dir}\\clip.cs`]
   const { exitCode } = await $.process.run(argv, { timeoutMs: 60000 }).catch(() => ({ exitCode: 1 }))
   return exitCode === 0 ? exe : undefined
 }

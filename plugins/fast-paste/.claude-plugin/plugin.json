@@ -1,6 +1,6 @@
 {
   "name": "fast-paste",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Windows: Alt+Shift+V pastes a clipboard image as an @file mention, or clipboard text, in ~70 ms instead of the built-in paste's ~1.2 s",
   "author": { "name": "brunolm" }
 }
