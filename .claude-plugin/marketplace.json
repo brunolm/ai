@@ -1,0 +1,6 @@
+{
+  "name": "brunolm-ai",
+  "owner": { "name": "brunolm" },
+  "description": "Claude Code plugins by brunolm",
+  "plugins": [{ "name": "fast-paste", "source": "./plugins/fast-paste" }]
+}

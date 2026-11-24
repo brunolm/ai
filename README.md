@@ -1,6 +1,6 @@
 # ai
 
-Index of AI-related projects, tracked as git submodules.
+Index of AI-related projects: MCP servers tracked as git submodules, and Claude Code plugins.
 
 ## MCP servers
 
@@ -13,6 +13,18 @@ Index of AI-related projects, tracked as git submodules.
 | stealth-fetch | `mcp/stealth-fetch-mcp` | [brunolm/stealth-fetch-mcp](https://github.com/brunolm/stealth-fetch-mcp) |
 | steam | `mcp/steam-mcp` | [brunolm/steam-mcp](https://github.com/brunolm/steam-mcp) |
 | toggl | `mcp/toggl-mcp` | [brunolm/toggl-mcp](https://github.com/brunolm/toggl-mcp) |
+
+## Claude Code plugins
+
+This repo is a Claude Code plugin marketplace (`.claude-plugin/marketplace.json`).
+
+| Plugin | Path | What it does |
+|---|---|---|
+| fast-paste | `plugins/fast-paste` | Windows: Alt+Shift+V pastes clipboard images (or text) in ~70 ms |
+
+```powershell
+claude plugin install <plugin> --marketplace brunolm/ai
+```
 
 ## Cloning
 
